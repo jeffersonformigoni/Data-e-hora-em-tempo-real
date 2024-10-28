@@ -1,0 +1,57 @@
+/* Define o estilo básico do corpo */
+body {
+    background-color: #434c75ee;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do contêiner do relógio */
+.relogio {
+    background-color: #444444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo da data */
+#data {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Estilo da hora */
+#hora {
+    font-size: 2.5em;
+}
+
+/* Cores diferentes para dia, mês e ano */
+.dia {
+    color: #ff6347; /* Vermelho tomate */
+}
+
+.mes {
+    color: #1e90ff; /* Azul dodger */
+}
+
+.ano {
+    color: #32cd32; /* Verde lima */
+}
+
+/* Cores diferentes para horas, minutos e segundos */
+.horas {
+    color: #ff6347; /* Vermelho tomate */
+}
+
+.minutos {
+    color: #1e90ff; /* Azul dodger */
+}
+
+.segundos {
+    color: #32cd32; /* Verde lima */
+}
